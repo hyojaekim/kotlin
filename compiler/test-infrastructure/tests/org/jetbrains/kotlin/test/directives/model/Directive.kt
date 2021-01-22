@@ -135,6 +135,6 @@ fun <T : Any> RegisteredDirectives.singleOrZeroValue(directive: ValueDirective<T
     return when (values.size) {
         0 -> null
         1 -> values.single()
-        else -> error("Too many values passed to $directive")
+        else -> error("Too many values passed to $directive: ${values.joinToArrayString()}")
     }
 }
