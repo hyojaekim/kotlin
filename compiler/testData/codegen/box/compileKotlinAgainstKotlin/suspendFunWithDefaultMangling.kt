@@ -1,5 +1,3 @@
-// WITH_COROUTINES
-
 // MODULE: lib
 // FILE: a.kt
 
@@ -14,6 +12,8 @@ suspend fun foo(p: P = P("OK")) {
 }
 
 // MODULE: main(lib)
+// WITH_COROUTINES
+// WITH_STDLIB
 // FILE: b.kt
 
 import kotlin.coroutines.*

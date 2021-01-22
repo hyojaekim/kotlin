@@ -18,6 +18,7 @@ interface SubCheck : Check {
 
 open class CheckClass : Check
 
+// MODULE: main(lib)
 // FILE: main.kt
 // !JVM_DEFAULT_MODE: all
 // JVM_TARGET: 1.8

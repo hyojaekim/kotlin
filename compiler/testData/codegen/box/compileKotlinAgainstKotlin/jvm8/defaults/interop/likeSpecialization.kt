@@ -13,6 +13,7 @@ interface Foo<T> {
 
 interface FooDerived: Foo<String>
 
+// MODULE: main(lib)
 // FILE: main.kt
 // !JVM_DEFAULT_MODE: all-compatibility
 open class UnspecializedFromDerived : FooDerived

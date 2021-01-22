@@ -2,6 +2,7 @@
 // !LANGUAGE: +JvmRecordSupport
 // JVM_TARGET: 15
 // ENABLE_JVM_PREVIEW
+// WITH_STDLIB
 
 // MODULE: lib
 // FILE: A.kt

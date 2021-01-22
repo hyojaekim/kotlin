@@ -14,6 +14,7 @@ interface KInterface  {
     fun superCall()  = Thread.currentThread().getStackTrace().map { it.className + "." + it.methodName }
 }
 
+// MODULE: main(lib)
 // FILE: main.kt
 // !JVM_DEFAULT_MODE: all
 interface KInterface2 : KInterface  {
